@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #54b9cf;
+  font-family: 'Maven Pro', sans-serif;
+
+}
+header{
+  background: white;
+  padding: 25px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+header > h1{
+  color:#cf6a54;
+  text-align:center;
+  font-family: 'Maven Pro', sans-serif;
+}
+.score{
+  border: 3px solid white;
+  width: 250px;
+  margin:20px auto;
+  color: white;
+  font-size: 40px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Maven Pro', sans-serif;
+  position: relative;
+}
+.nametag{
+  background:#cf6a54;
+  color: white;
+  font-size: 20px;
+  padding: 2px 10px;
+  font-family: 'Maven Pro', sans-serif;
+  border-radius: 3px;
+}
+#player-nametag{
+  position: absolute;
+  top:20px;
+  left: -25px;
+
+}
+
+#computer-nametag{
+  position: absolute;
+  top: 20px;
+  right: -55px;
+}
+.result{
+  font-size: 25px;
+  color: white
+}
+.result>p{
+  text-align: center;
+  font-weight: bold;
+}
+.choices{
+  text-align:center;
+  margin:25px 5px;
+}
+.choice{
+  display: inline-block;
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px 12px;
+  transition: all 0.2s ease;
+}
+.choice:hover{
+  background:#cf6a54;
+  cursor: pointer;
+}
+#action{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
